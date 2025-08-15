@@ -6,9 +6,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
-# Load pre-trained VGG16 model + higher level layers
-model = VGG16(weights='imagenet')
 
+model = VGG16(weights='imagenet')
+# Load pre-trained VGG16 model + higher level layers
 def load_and_process_image(image_path):
     """
     Load an image from the given path, resize it, and preprocess it for VGG16.
