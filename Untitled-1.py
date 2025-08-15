@@ -48,5 +48,6 @@ def predict_image_class(image_path):
     plt.show()
 
 # Test with an example image
+
 image_path = 'path_to_your_image.jpg'  # Replace with the path to your image
 predict_image_class(image_path)
