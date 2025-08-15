@@ -24,7 +24,7 @@ def load_and_process_image(image_path):
     img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
     img_array = preprocess_input(img_array)  # Preprocess the image for VGG16
     return img_array
-
+#arafat
 def predict_image_class(image_path):
     """
     Predict the class of an image using the pre-trained VGG16 model.
